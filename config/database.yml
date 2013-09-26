@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mk
+  pool: 5
+  username: postgres
+  password: pass
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: mk_test
+  pool: 5
+  username: postgres
+  password: pass
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: mk_test
+  pool: 5
+  username: postgres
+  password: pass
+
