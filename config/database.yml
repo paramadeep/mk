@@ -20,5 +20,5 @@ production:
   database: mk_prod
   pool: 5
   username: postgres
-  password: pass 
+  password: 
 
