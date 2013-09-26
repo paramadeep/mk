@@ -17,8 +17,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: mk_test
+  database: mk_prod
   pool: 5
   username: postgres
-  password: pass
+  password: 
 
